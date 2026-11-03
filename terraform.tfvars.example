@@ -1,0 +1,9 @@
+# 复制为 terraform.tfvars 后修改
+region            = "cn-south-1"       # 华南-广州
+vpc_cidr          = "192.168.0.0/16"
+subnet_cidr       = "192.168.1.0/24"
+allowed_source_ip = "1.2.3.4/32"       # ← 改成你的公网 IP（curl -s ifconfig.me）
+app_port          = 8080
+ecs_cpu           = 2
+ecs_memory_gb     = 4
+# ecs_flavor_id   = "s6.large.2"       # 可选：自动选择的规格售罄时手动指定
