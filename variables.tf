@@ -59,7 +59,7 @@ variable "ecs_flavor_id" {
 variable "image_name_regex" {
   description = "镜像名称正则，默认 Huawei Cloud EulerOS 2.0"
   type        = string
-  default     = "^Huawei Cloud EulerOS 2\\.0"
+  default     = "^Huawei Cloud EulerOS 2\\.0 Standard 64 bit$"
 }
 
 variable "system_disk_size" {
