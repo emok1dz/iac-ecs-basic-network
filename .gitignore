@@ -6,3 +6,4 @@ crash.log
 *.tfplan
 # 注意：terraform.tfstate 需要提交（判题系统通过它验证资源已真实创建）
 tfplan
+terraform.tfstate.backup
